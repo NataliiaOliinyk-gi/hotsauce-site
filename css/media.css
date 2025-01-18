@@ -1,0 +1,538 @@
+@media screen and (max-width: 1440px) {
+    html {
+        font-size: 0.9px;
+    }
+
+    .skreen-container {
+        padding: 0px 18px;
+    }
+
+    .container-header-content {
+        padding-right: 35rem;
+    }
+
+    .container-nav-menu {
+        padding: 40rem 24rem 0rem;
+    }
+
+    /* Screen Two */
+
+    .person-image {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    html {
+        font-size: 0.8px;
+    }
+
+    .skreen-container {
+        padding: 0px 24px;
+    }
+
+    /* Screen Two */
+
+    .person {
+        padding: 0 10px;
+    }
+
+    /* Screen Three */
+
+    .section-logos {
+        gap: 35rem;
+    }
+
+     /* Screen Five */
+
+     .reason-image{
+        width: 50%;
+     }
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Cookie Banner */
+
+    .cookies-banner {
+        flex-direction: column;
+        justify-content: center;
+        padding: 48px 20px 16px;
+        gap: 10px;
+    }
+
+    .container-cokkies-info {
+        width: 100%;
+        gap: 6.95px;
+    }
+
+    .container-cokkies-buttons {
+        flex-direction: column;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .container-cokkies-buttons button {
+        width: 100%;
+    }
+
+    /* Top Nav */
+    .container-top-nav {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .container-top-nav p {
+        margin: 10rem 0 15rem;
+    }
+
+    .container-top-nav a {
+        width: 100%;
+        padding: 10rem;
+    }
+
+    /* Nav Menu */
+
+    .container-nav-menu nav {
+        display: none;
+    }
+
+    .container-logo img {
+        width: 200px;
+        height: 56.17px;
+    }
+
+    /* Gamburger */
+    .header-gamburger {
+        display: contents;
+    }
+
+    /* Header Info */
+    .container-header-title h1 {
+        font-size: 34px;
+    }
+
+    .container-header-label img {
+        max-width: 162px;
+    }
+
+    .container-header-label {
+        width: 100%;
+        max-width: 162px;
+        order: 1;
+        margin-top: 0;
+        margin-bottom: 35rem;
+    }
+
+    .container-header-title {
+        order: 2;
+    }
+
+    .container-header-content {
+        padding-right: 0rem;
+        order: 3;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .container-header-content p {
+        font-size: 18px;
+    }
+
+    /* Header Bar */
+
+    .container-header-bar {
+        flex-direction: column;
+        gap: 16.78px;
+    }
+
+    .container-header-bar-title h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /* Section */
+
+    .section {
+        padding: 200rem 0;
+    }
+
+    .section-screen-two {
+        padding: 200rem 0 0;
+    }
+
+    /* Screen Two */
+
+    .section-title {
+        margin: 0 auto 0rem;
+        padding-bottom: 48px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .section-speaker {
+        width: 50%;
+    }
+
+    .section-speaker:nth-child(3n+2) {
+        margin-top: 0rem;
+    }
+
+    .section-speaker:nth-child(3n) {
+        margin-top: 0rem;
+    }
+
+    .section-speaker:nth-child(2n+2) {
+        margin-top: 75rem;
+    }
+
+    .section-speaker:nth-child(2n) {
+        margin-top: 150rem;
+    }
+
+    .person-info-more {
+        margin-bottom: 100px;
+    }
+
+    .person-title h3 {
+        font-size: 23px;
+    }
+
+    .person-more h3 {
+        font-size: 25px;
+    }
+
+    .person-details p {
+        font-size: 19px;
+    }
+
+    .person-link a {
+        font-size: 14px;
+    }
+
+    /* Screen Three */
+
+    .section-logos {
+        justify-content: center;
+    }
+
+    .section-logo-right {
+        display: none;
+    }
+
+    .section-logo-left {
+        width: 100%;
+    }
+
+    .section-logo-left-image {
+        width: 100%;
+    }
+
+    /* Tickets */
+
+    .section-tickets {
+        gap: 48rem;
+        padding: 0;
+    }
+
+    .ticket {
+        flex-direction: column;
+    }
+
+    .ticket-content {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .ticket-end {
+        width: 100%;
+    }
+
+    .ticket::before,
+    .ticket::after {
+        height: 10rem;
+        width: 100%;
+        background-repeat: repeat-x;
+        background-position: center center;
+    }
+
+    .ticket::before {
+        left: 0;
+        top: -9rem;
+        bottom: auto;
+        background-image: url(../img/stub-end-mobile-light.svg);
+    }
+
+    .ticket::after {
+        right: 0;
+        bottom: -9rem;
+        top: auto;
+        background-image: url(../img/stub-end-mobile-grey.svg);
+    }
+
+    .ticket-price {
+        width: 85%;
+        height: 126rem;
+        padding: 40rem 90rem;
+        border-right: none;
+        border-bottom: 1px solid #eaeaea;
+    }
+
+    .ticket-price::after,
+    .ticket-price::before {
+        bottom: -9rem;
+    }
+
+    .ticket-price::before {
+        left: -9rem;
+        top: auto;
+    }
+
+    .ticket-price::after {
+        right: 0;
+        top: auto;
+    }
+
+    .ticket-details {
+        align-items: center;
+    }
+
+    .ticket-price p {
+        font-size: 39px;
+    }
+
+    .ticket-title {
+        font-size: 20px;
+    }
+
+    .ticket-profit {
+        font-size: 21px;
+    }
+
+    .ticket-termin {
+        font-size: 18px;
+    }
+
+    .ticket-end p {
+        font-size: 30px;
+    }
+
+    /* Screen Four */
+
+    .section-bg-dark {
+        padding: 160rem 0;
+    }
+
+    .section-posters {
+        gap: 69rem;
+    }
+
+    .poster-invert .poster-image {
+        order: 1;
+    }
+
+    .poster-invert .poster-content {
+        order: 2;
+    }
+
+    .poster {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .poster-image {
+        width: 96%;
+        min-width: 324rem;
+    }
+
+    .poster-content {
+        width: 100%;
+    }
+
+    .poster-content h2 {
+        font-size: 34px;
+    }
+
+    .poster-content p {
+        font-size: 17px;
+    }
+
+    /* Screen Five */
+
+    .section-reasons {
+        gap: 64rem;
+    }
+
+    .reason {
+        flex-direction: column;
+        gap: 21rem;
+    }
+
+    .reason-image {
+        width: 100%;
+    }
+
+    .reason-content {
+        width: 100%;
+    }
+
+    .reason-details {
+        gap: 29rem;
+    }
+
+    .reason-invert .reason-content {
+        order: 1;
+    }
+
+    .reason-invert .reason-image {
+        order: 2;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+
+    /* Screen Two */
+
+    .section-title {
+        margin: 80px auto 0rem;
+    }
+
+    .section-speaker {
+        width: 100%;
+    }
+
+    .section-speaker:nth-child(2n+2) {
+        margin-top: 0rem;
+    }
+
+    .section-speaker:nth-child(2n) {
+        margin-top: 0rem;
+    }
+
+    .person-info {
+        margin-bottom: 67.89px;
+    }
+
+    .person-info-more {
+        margin-bottom: 120px;
+    }
+
+    /* Screen Three */
+
+    .section-logo-left-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-logo-left-image img {
+        width: 342px;
+    }
+
+    .section-logo-left-text h2 {
+        font-size: 31px;
+    }
+
+    .section-logo-left-text {
+        margin-left: 10rem;
+    }
+
+    /* Screen Four */
+
+    .poster-image {
+        max-width: 100%;
+        min-width: 324rem;
+    }
+
+     /* Screen Five */
+
+     .section-title-small {
+        margin-bottom: 8.7px;
+    }
+
+    .section-title-small h2 {
+        font-size: 17px;
+    }
+
+    .reason {
+        gap: 21px;
+    }
+
+    .reason-number {
+        height: 139rem;
+    }
+
+    .reason-details h3 {
+        font-size: 30px;
+    }
+
+    .reason-details p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+
+    /* Cookie Banner */
+    .container-cokkies-info span {
+        display: contents;
+    }
+
+    /* Top Nav */
+    .container-top-nav {
+        display: none;
+    }
+
+    /* Header Info */
+    .header-info {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    /* Header Bar */
+    .header-bar {
+        margin-top: -100px;
+    }
+
+    .container-header-bar {
+        padding: 40px;
+    }
+
+    /* Section */
+
+    .section {
+        padding: 180rem 0;
+    }
+
+    .section-screen-two {
+        padding: 180rem 0 0;
+    }
+
+    /* Screen Two */
+
+    .person-info-more {
+        margin-bottom: 140px;
+    }
+
+    /* Screen Three */
+
+    .section-logo-left-text {
+        margin-left: 0;
+    }
+
+    /* Screen Four */
+
+    .section-bg-dark {
+        padding: 120rem 0;
+    }
+
+    .poster-image {
+        width: 324px;
+    }
+
+}
