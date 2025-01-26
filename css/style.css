@@ -1031,3 +1031,130 @@ html {
     line-height: 166%;
     color: #212529;
 }
+
+/* Screen Seven */
+
+#updates{
+    padding-top: 330rem;
+}
+
+#updates .skreen-container{
+    position: relative;
+}
+
+#updates .skreen-container::before {
+    content: '';
+    display: block;
+    background-image: url(../img/fom-blob-graphic.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 408rem;
+    height: 295rem;
+    position: absolute;
+    right: 0;
+    top: -200rem;
+}
+
+.section-update-title {
+    display: flex;
+    flex-direction: column;
+    gap: 13rem;
+    margin-bottom: 50rem;
+}
+
+.update-form {
+    display: flex;
+    flex-direction: column;
+    gap: 26rem;
+}
+
+.update-form-inputs {
+    display: flex;
+    gap: 16rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.update-form-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    width: 33%;
+}
+
+.update-form-input input {
+    background: #fff;
+    border-radius: 10px;
+    height: 62rem;
+    border: none;
+    outline-color: #ff3c00;
+    padding: 5px 10px;
+}
+
+.update-form-checking {
+    display: flex;
+    gap: 14rem;
+    margin-bottom: 36rem;
+    align-items: center;
+}
+
+#inputCheckbox {
+    border-radius: 5px;
+    width: 22px;
+    height: 22px;
+    accent-color: #ff3c00;
+}
+
+.section-update-title h2 {
+    font-weight: 900;
+    font-size: 47rem;
+    line-height: 106%;
+    text-transform: uppercase;
+    color: #212529;
+}
+
+.section-update-title p {
+    font-weight: 500;
+    font-size: 17rem;
+    line-height: 167%;
+    color: #212529;
+    width: 864rem;
+}
+
+.update-form-input label,
+.update-form-checking label {
+    font-weight: 500;
+    font-size: 15rem;
+    line-height: 166%;
+    color: #212529;
+}
+
+.update-form-input label span {
+    color: #ff3c00;
+}
+
+.update-form-input label {
+    padding-left: 8px;
+}
+
+.update-form-button button {
+    background: #323232;
+    border: 1px solid #323232;
+    padding: 22rem 36rem;
+    font-weight: 800;
+    font-size: 19rem;
+    line-height: 157%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    transition: all 400ms;
+}
+
+.update-form-button button:hover{
+    background-color: #ff3c00;
+    border-color: #ff3c00;
+}

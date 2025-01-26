@@ -453,6 +453,39 @@
         font-size: 13px;
     }
 
+    /* Screen Seven */
+
+    .section-update-title h2 {
+        font-size: 29px;
+    }
+
+    .section-update-title p {
+        font-size: 17px;
+        width: 100%;
+    }
+
+    .update-form-inputs {
+        flex-direction: column;
+        gap: 16rem;
+    }
+
+    .update-form-input {
+        width: 100%;
+    }
+
+    .update-form-input label,
+    .update-form-checking label {
+        font-size: 15px;
+    }
+
+    #updates .skreen-container::before{
+        display: none;
+    }
+
+    #updates{
+        padding-top: 220rem;
+    }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -542,6 +575,12 @@
         width: 171px;
         height: 171px;
     }
+
+    /* Screen Seven */
+
+    #updates{
+        padding-top: 240rem;
+    }
 }
 
 @media screen and (max-width: 390px) {
@@ -601,6 +640,12 @@
 
     .poster-image {
         width: 324px;
+    }
+
+     /* Screen Seven */
+
+     #updates{
+        padding-top: 220px;
     }
 
 }
